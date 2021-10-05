@@ -5,6 +5,12 @@ class WelcomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        leading: Icon(
+          Icons.menu,
+        ),
+      ),
+    );
   }
 }
