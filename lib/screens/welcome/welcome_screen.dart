@@ -8,7 +8,7 @@ class WelcomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: Icon(
-          Icons.menu,
+          Icons.access_alarm,
         ),
       ),
     );
